@@ -1,25 +1,112 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<html lang="zh">
 <head>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <title>博远信息技术社</title>
-    <link rel="icon" href="/static/logo.ico" type="image/x-icon">
-    <link rel="stylesheet" href="/css/index.css">
-    <h1>Boyuan-IT-Club</h1>
-    <h1>test2</h1>
-    <h1>test3</h1>
-
+    <link rel="icon" href="\static\logo.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+        }
+        .container {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #2c3e50;
+        }
+        h5 {
+            color: #34495e;
+        }
+        p {
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            padding: 10px 0;
+        }
+    </style>
 </head>
-
 <body>
-    <!-- TODO 网页内容 -->
-    <script src="/js/index.js"></script>
-</body>
 
-<footer>
-    © 博远信息技术社 Boyuan-IT-Club
+<div class="container">
+    <h2>常见问题</h2>
+
+    <h5>Q1: 博远信息技术社是什么？</h5>
+    <p><strong>A1:</strong> 博远是一个偏向实用和学习性质的社团，最初由博远姐（现为学校的老师）成立，作为一个工作室承接一些和学校合作的或者外包的项目，后来发展成为一个社团。社团旨在聚集一批对IT有热情的小伙伴一起学习和进步。</p>
+
+    <h5>Q2: 招新细则什么时候公布/招生活动是怎么进行的？</h5>
+    <p><strong>A2:</strong> 招新细则将在开学后公布，社团成员可以在群里提问，管理员会及时解答。 
+        <a class="btn" href="https://qm.qq.com/q/2BKXWvqCy4" id="join-chat">加入群聊</a>
+    </p>
+
+    <h5>Q3: 暑假想学习相关知识有何推荐？</h5>
+    <p><strong>A3:</strong> 如果没有基础，建议先学习C/CPP，推荐b站搜索黑马程序员的教程学习C语言，这样可以更好地应对校内课程，尤其是第一学期的C语言课程和第二学期的数据结构与算法(CPP)课程。推荐教材《Java核心技术卷I》</p>
+
+    <h5>Q4: 社团的主要活动有哪些？</h5>
+    <p><strong>A4:</strong> 社团的主要活动包括学习小组、OwnerPro、技术分享和头脑风暴。目前仍在探究和完善更多活动。</p>
+    <ul>
+        <li>学习小组、OwnerPro：社团成员可在低年级接触web项目来提升自学能力和眼界，有社团的学长指导</li>
+        <li>头脑风暴：面向全校同学，目的是让同学们的想法落地，能够参加双创等活动</li>
+        <li>技术分享：请高年级同学分享学校里不学但是很重要或值得了解的技术（有望加第二课堂学分）</li>
+        <li>其他：博远为<a href="https://edu.hicomputing.huawei.com/group">华为智能基座社团</a>，会举办一些华为相关活动</li>
+    </ul>
+
+    <h5>Q5: 社团活动的时间安排是怎样的？</h5>
+    <p><strong>A5:</strong> 社团的线下活动一般是固定时间安排，但会根据大多数成员的空闲时间进行调整。</p>
+
+    <h5>Q6: 推荐使用的搜索引擎？</h5>
+    <p><strong>A6:</strong> 请尽可能避免使用百度，可使用Google和Bing。</p>
+
+    <h5>Q7: 社团的面试要求高吗？</h5>
+    <p><strong>A7:</strong> 社团有一次的面试，面试要求不高，主要看成员的基础和积极性，后者更为重要。我们需要积极参与社团的同学，不希望同学加入社团后不参加活动。即便面试没有通过，也可以联系学长参加社团的各种活动。</p>
+
+    <h5>Q8: 社团的资源有哪些？</h5>
+    <p><strong>A8:</strong> 社团提供丰富的人脉资源，包括研究生毕业和科研就业的学长，在蚂蚁、字节跳动、小红书、美团都有我们社团学长的身影。</p>
+
+    <h5>Q9: 一些要求？</h5>
+    <p><strong>A9:</strong> 学会使用Git和Github：可参见社团<a href="https://github.com/Boyuan-IT-Club/learning-materials/tree/main">学习资料</a>。使用AI学习：可选择国内镜像使用GPT 4omini（推荐WebTab插件，有自带AI）。在群里大胆提问。</p>
+
+    <h5>Q10: 社团的选修课与社团活动有联系吗？</h5>
+    <p><strong>A10:</strong> 社团的选修课与社团活动没有直接联系，但短期课程的授课大多来自社团的人。</p>
+
+    <h5>Q11: 对大学生活的建议？</h5>
+    <p><strong>A11:</strong> 要勇于探索尝试，不要问要求高不高、能不能做到，因为大学是试错成本最低的时期。</p>
+
+    <h5>Q12: 关于绩点/保研/奖学金？</h5>
+    <p><strong>A12:</strong> 通识绩点算在奖学金当中，但不在保研的考虑范围内。</p>
+</div>
+
+<!-- Modal Structure -->
+
+<footer class="page-footer">
+    <div class="container">
+        <div class="footer-copyright" style="color: black;">
+            <div class="container">
+                © 博远信息技术社 Boyuan-IT-Club
+            </div>
+        </div>
+    </div>
 </footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.modal');
+        var instances = M.Modal.init(elems);
+
+        document.getElementById('join-chat').addEventListener('click', function() {
+            var instance = M.Modal.getInstance(document.getElementById('chat-modal'));
+            instance.open();
+        });
+    });
+</script>
+</body>
 </html>
