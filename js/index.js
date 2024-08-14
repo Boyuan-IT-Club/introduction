@@ -2,7 +2,7 @@
 async function loadQA() {
     try {
         // 从 Q&A.json 文件中获取数据
-        const response = await fetch("../Q&A.json");
+        const response = await fetch("../assets/Q&A.json");
         const data = await response.json();
 
         // 获取容器元素
